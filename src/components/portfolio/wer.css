@@ -1,0 +1,11 @@
+.header{
+    position: relative;
+    background: url(../../../public/images/wer-image/bg-wer.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* .header > h1{
+    padding-top: 10rem;
+} */

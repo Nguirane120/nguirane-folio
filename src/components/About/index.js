@@ -1,11 +1,19 @@
-import React from 'react'
-import './index.css'
+import Aos from 'aos'
+import React, { useEffect } from 'react'
+import './about.css'
 
-const About = () => {
+const About = ({ aos }) => {
+  useEffect(() =>{
+    Aos.init({ duration: 2000})
+  })
   return (
+    <>
+    <div className="bg_about postion-relative">
+      <h1 className="position-absolute top-50 start-50 translate-middle text-light">I am a lover of new technoligies</h1>
+    </div>
     <div className="about py-5">
         <div className="container">
-            <div className="row bg-light">
+            <div className="row bg-light" data-aos="zoom-in">
             <div className="col-md-4 pt-5 p-5">
               <img src="images/pp.jpg" className='img-fluid img-thumbnail w-50' alt="" />
                 <div className="skills py-3">
@@ -40,6 +48,11 @@ const About = () => {
                <div class="progress-bar" style={{ width: "50%"}} role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
             </div>
             </div>
+            <p>Nodejs 60%</p>
+              <div class="progress">
+               <div class="progress-bar" style={{ width: "50%"}} role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            </div>
+            </div>
                 </div>
               
             </div>
@@ -60,6 +73,7 @@ const About = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

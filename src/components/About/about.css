@@ -1,0 +1,7 @@
+.bg_about{
+    position: relative;
+    background: url(./../../bg-about.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}

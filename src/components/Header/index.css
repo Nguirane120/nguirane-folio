@@ -1,4 +1,4 @@
-.header{
+.bg_baner{
     position: relative;
     background: url(./../../bg2.jpg) no-repeat ;
     background-size: cover;
@@ -6,7 +6,7 @@
     height: 90vh;
 }
 
-.header > h1{
+.bg_banerader > h1{
     text-transform: uppercase;
     color: white;   
 }

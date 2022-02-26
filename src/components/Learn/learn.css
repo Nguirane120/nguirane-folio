@@ -1,0 +1,7 @@
+.learn{
+    position: relative;
+    background: url(./../../bg-learn.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
