@@ -71,7 +71,6 @@ const Accueil = () => {
             </div>
             <div className="col-md-4 pt-5">
               <h1 className='accueil-title'>About me</h1>
-              <hr style={{ width: "20%", textAlign:"left", marginLeft: "0", marginTop:"5px", color: 'blue', border: "1px solid #6960EC"}}></hr>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, aperiam quae sequi id corporis recusandae a veniam incidunt dolor consequuntur!</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, aperiam quae sequi id corporis recusandae a veniam incidunt dolor consequuntur!</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, aperiam quae sequi id corporis recusandae a veniam incidunt dolor consequuntur!</p>
