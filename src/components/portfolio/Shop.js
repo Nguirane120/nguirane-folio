@@ -1,7 +1,9 @@
-import React from 'react'
+import Aos from 'aos'
+import React, { useEffect } from 'react'
 import './shop.css'
 
 const Shop = () => {
+  useEffect(() => { Aos.init({ duration: 2000})})
   return (
       <>
     <div className="shop position-relative">
@@ -9,7 +11,7 @@ const Shop = () => {
        Shopping app Detail 
       </h1>
     </div>
-    <div className="container">
+    <div className="container" data-aos="zoom-out-up">
         <div className="row py-5">
             <div className="col-md-8">
             <div className="container py-5">

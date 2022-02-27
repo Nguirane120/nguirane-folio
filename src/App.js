@@ -10,6 +10,7 @@ import Work from './components/portfolio';
 import Shop from './components/portfolio/Shop';
 import Learn from './components/Learn';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/wer-project" element={<WerDetail/>}/>
         <Route path="/shop-project" element={<Shop/>}/>
         <Route path="/e-learning-project" element={<Learn/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
     <Footer/>
     </div>

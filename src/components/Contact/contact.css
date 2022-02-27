@@ -1,0 +1,30 @@
+/* .contact{
+    background-image: linear-gradient(rgb(10, 112, 140), rgb(178, 190, 195));
+} */
+
+
+.contact-title::after{
+    content: "";
+    width: 140px;
+    height: 4px;
+    display: block;
+    margin:10px;
+    background-color: blue;
+}
+
+.circle {
+    background-color:#fff;
+    border:1px solid blue;    
+    height:60px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:50px;
+    cursor: pointer;
+    
+}
+
+.circle:hover{
+    background-color: blue;
+    color: #fff;
+}

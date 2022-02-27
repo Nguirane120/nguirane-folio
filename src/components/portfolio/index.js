@@ -1,7 +1,9 @@
-import React from 'react'
+import Aos from 'aos'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './index.css'
 const Work = () => {
+    useEffect(() =>{ Aos.init({ duration: 2000})})
   return (
       <>
       <div className="works position-relative">
@@ -10,7 +12,7 @@ const Work = () => {
     <div className="container pt-5">
         <h1 className="text-center">Portfolio</h1>
         <div className="row text-center">
-            <div className="col-md-4">
+            <div className="col-md-4"  data-aos="flip-left">
              
 
                 <div className="card" style={{ width: '18rem'}}>
@@ -22,7 +24,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-right">
             <div className="card" style={{ width: '18rem'}}>
                     <img src="images/shopping/shop.jpg" className='' alt="Shop" />
                     <div className="card-body">
@@ -32,7 +34,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="flip-down">
             <div className="card" style={{ width: '18rem'}}>
                     <img src="images/learn/learn.jpg" className='' alt="" />
                     <div className="card-body">

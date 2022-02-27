@@ -9,6 +9,8 @@ import Header from '../Header'
 import Work from '../portfolio'
 import Services from '../Services'
 import { Link } from 'react-router-dom'
+import Contact from '../Contact'
+import './accueil.css'
 const Accueil = () => {
   useEffect(() =>{
     Aos.init({ duration: 2000})
@@ -68,7 +70,7 @@ const Accueil = () => {
               <p><strong>Telephone: </strong>773040843</p>
             </div>
             <div className="col-md-4 pt-5">
-              <h1 className='about'>About me</h1>
+              <h1 className='accueil-title'>About me</h1>
               <hr style={{ width: "20%", textAlign:"left", marginLeft: "0", marginTop:"5px", color: 'blue', border: "1px solid #6960EC"}}></hr>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, aperiam quae sequi id corporis recusandae a veniam incidunt dolor consequuntur!</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, aperiam quae sequi id corporis recusandae a veniam incidunt dolor consequuntur!</p>
@@ -149,7 +151,8 @@ const Accueil = () => {
             </div>
         </div>
         <div className="container pt-5">
-        <h1 className="text-center">Portfolio</h1>
+        <h1 className="text-center accueil-title">Portfolio</h1>
+        {/* <p  className="text-center">Mes realisations</p> */}
         <div className="row text-center">
             <div className="col-md-4" data-aos="fade-left">
                 <div className="card" style={{ width: '18rem'}}>
@@ -183,6 +186,7 @@ const Accueil = () => {
             </div>
         </div>
     </div>
+    <Contact/>
     </>
   )
 }
